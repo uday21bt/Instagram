@@ -59,13 +59,13 @@ hr{
 
 .container{
   
-  width: 70vw;
-  height: 65vh;
+  width: auto;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  margin-left: rem;
+  gap: 1rem;
   border: 0.5px solid rgb(216, 210, 210);
 }
 
@@ -75,6 +75,7 @@ hr{
 
 .insta-logo{
   width: 180px;
+  margin-top: 2rem;
 }
 
 .login-box{
