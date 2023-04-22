@@ -47,7 +47,7 @@ li {
   font-weight: 500;
   cursor: pointer;
   /* customize */
-  background-color: rgb(17, 66, 226);
+  background-color: rgb(53, 121, 234);
   color: white;
   border: 2px solid;
   opacity: 70%;
@@ -98,7 +98,12 @@ input{
 }
 
 
+.login-link{
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgba(10, 10, 141, 0.932);
 
+}
 
   
 .card{
