@@ -131,15 +131,14 @@ input{
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   gap: 2.5rem;
-   margin-top: 2rem;
+   gap: 1rem;
+   margin-top: 0.05rem;
    width: auto;
    height: auto;
    
 }
 
-.app{
-    
+.app{ 
   font-weight: 400;
   font-size: 0.75rem;
    
@@ -156,7 +155,7 @@ input{
 }
 
 .card-three{
-  margin-top: 1rem;
+  margin-top: -4rem;
 }
 
 .container-three{
@@ -177,6 +176,13 @@ input{
   padding-bottom: 0.75rem;
 }
 
+.download-description{
+  margin-bottom: 5rem;
+}
+
+.card-three{
+  margin-bottom: 6rem;
+}
 
 
 @media screen and (min-width: 576px) {
@@ -207,9 +213,13 @@ input{
     justify-content: center;
     margin-top: 1.25rem;
   }
+
+  .card-two{
+
+    margin-bottom: 2rem;
+  }
   .card-three{
-    margin-bottom: 4rem;
-   
+    margin-bottom: 1rem;
   }
   
 .container-three{
@@ -218,6 +228,8 @@ input{
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  margin-bottom: 3rem;
+  
 }
 
 .app-widget{
