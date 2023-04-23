@@ -66,6 +66,7 @@ hr{
   align-items: center;
   justify-content: space-evenly;
   gap: 1rem;
+  margin-bottom: 2rem;
   
 }
 
@@ -94,21 +95,90 @@ input{
   opacity: 80%;
   border-radius: 3px;
   font-size: 0.75rem;
-  
 }
 
 
 .login-link{
   font-weight: 500;
-  font-size: 1rem;
-  color: rgba(10, 10, 141, 0.932);
-
+  font-size: 0.80rem;
+  color: rgba(69, 69, 221, 0.877);
+  opacity: 90%;
 }
 
-  
+.fa-brands{
+  color: rgba(69, 69, 221, 0.877);
+}  
 .card{
-   margin-top: 3rem ;
+   
 }
+
+.facebook{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.forgot-password{
+  
+  font-size: 0.65rem;
+  opacity: 80%;
+}
+
+.container-two{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 2.5rem;
+   margin-top: 2rem;
+   width: auto;
+   height: auto;
+   
+}
+
+.app{
+    
+  font-weight: 400;
+  font-size: 0.75rem;
+   
+}
+
+.help-text{
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+.sign{
+  color: rgb(41, 172, 224);
+  font-weight: 700;
+}
+
+.card-three{
+  margin-top: 1rem;
+}
+
+.container-three{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.app-widget{
+  width: 30vw;
+}
+
+.micro{
+  width: 30vw;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+
+
 @media screen and (min-width: 576px) {
 }
 
@@ -117,8 +187,57 @@ input{
 @media (min-width: 768px) {
      
   .container{
+     width: 28vw;
+     height: 65vh;
+     margin: auto;
+     border: 0.5px solid rgb(187, 172, 172);
+     margin-top: 0.5rem;
+  }
+  
+  .help-two{
+      border: 1px solid gray;
+      width: 28vw;
+      height:9vh;
+  }
+
+  .help-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.25rem;
+  }
+  .card-three{
+    margin-bottom: 4rem;
    
   }
+  
+.container-three{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.app-widget{
+  width: 10vw;
+}
+
+.micro{
+  width: 10vw;
+}
+
+.full-card{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+
+
+}
+
 
 }
 
